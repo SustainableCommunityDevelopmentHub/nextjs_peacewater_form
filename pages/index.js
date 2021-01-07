@@ -15,19 +15,19 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by describing your {' '}
+          Start your system evaluation by choosing a starting point below  {' '}
           <code className={styles.code}>existing system</code>
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Drinking Water Supply &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Source, procurement, storage, treatment, and distribution choices.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Wastewater & Sewage &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Evaulate service options applicable to your context from Collection, transfer, treatment, and disposal.  </p>
           </a>
 
           <a
@@ -35,16 +35,16 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Municipal Solid Waste &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Storage and transfer options with multiple disposal and recovery system options.</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3> Assessment Methodology &rarr;</h3>
+            <h3> Assessment model &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Technology scores are calculated based on cost, energy, technical and institutional requirements.
             </p>
           </a>
         </div>
